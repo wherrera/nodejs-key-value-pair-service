@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-key-value-pair-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "8.11.1"
+  },
+  "dependencies": {
+    "async-redis": "^1.1.7",
+    "express": "^4.17.1",
+    "redis": "^2.8.0"
+  }
+}
